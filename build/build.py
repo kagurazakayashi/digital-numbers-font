@@ -6,6 +6,6 @@ for glyph in font.glyphs():
     glyph.removeOverlap()
     glyph.addExtrema()
     glyph.simplify()
-formats = ['../dist/sa-digital-number.ttf', '../dist/sa-digital-number.svg', '../dist/sa-digital-number.woff', '../dist/sa-digital-number.eot']
+formats = ['../dist/DigitalNumbers-Regular.ttf', '../dist/DigitalNumbers-Regular.svg', '../dist/DigitalNumbers-Regular.woff', '../dist/DigitalNumbers-Regular.eot']
 for file in formats:
     font.generate(file, flags=("round", "dummy-dsig"))

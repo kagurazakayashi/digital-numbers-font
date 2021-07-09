@@ -10,7 +10,7 @@
 (function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'sa-digital-number\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'DigitalNumbers-Regular\'">' + entity + '</span>' + html;
 	}
 	var icons = {
 		'icon-minus': '&#x2d;',

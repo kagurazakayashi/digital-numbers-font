@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'sa-digital-number';
-	src: url('fonts/sa-digital-number.eot');
+	font-family: 'DigitalNumbers-Regular';
+	src: url('fonts/DigitalNumbers-Regular.eot');
 }
 @font-face {
-	font-family: 'sa-digital-number';
-	src: url('fonts/sa-digital-number.ttf') format('truetype');
+	font-family: 'DigitalNumbers-Regular';
+	src: url('fonts/DigitalNumbers-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'sa-digital-number';
+	font-family: 'DigitalNumbers-Regular';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
